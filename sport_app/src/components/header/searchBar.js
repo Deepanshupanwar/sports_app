@@ -6,12 +6,10 @@ const SearchBar = () => {
         e.preventDefault();
         setSearchInput(e.target.value);
       };      
-      return (<div className="container">
-        <div className="box">
-        <p className="header title">Sporting Adda</p>
-        <input className="header search" type="search" placeholder="Search Event" onChange={handleChange} value={searchInput} />
-        </div>
-    </div>);
+      return (
+        <div>
+        <input className="search" type="search" placeholder="Search Event" onChange={handleChange} value={searchInput} />
+        </div>);
 };
 export default SearchBar;
 

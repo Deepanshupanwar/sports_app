@@ -1,10 +1,9 @@
 import './App.css';
-import SearchBar from './components/searchBar'
-
+import CollectHead from './components/header/collectHead';
 function App() {
   return (
     <div classname='App'>
-      <SearchBar />
+      <CollectHead/>
     </div>
 );
 }
