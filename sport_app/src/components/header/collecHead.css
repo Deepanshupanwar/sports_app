@@ -7,7 +7,7 @@
 .city{
     padding-top: 33px;
     position: absolute ;
-    right: 100px;
+    right: 200px;
     font-size: 17px;
     font-family: Roboto,sans-serif;
 }
@@ -18,4 +18,12 @@
 padding-right: 20px;
 font-size: 22px;
 font-family: Roboto,sans-serif;
+}
+.butt{
+    position: absolute ;
+    right:110px;
+    padding-top: 15px;
+}
+.link-btn{
+    font-size: medium;
 }
